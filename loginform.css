@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(40, 4, 0, 0.2)
+}
+.login-formnew{
+    max-width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    background-image: url(new\ back.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 7px rgb(182, 25, 25, 0.7);
+}
+h2{
+    color:black;
+    text-align: center;
+}
+h2:hover{
+    transform: translateY(-40px);
+    transition: all 0.5s ease;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    background-color: fuchsia;
+    transition: all 0.3s ease;
+    
+}
+input:hover{
+    background-color: fuchsia;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.2);
+    border: 1px solid fuchsia;
+    transform: translateY(5px);
+    color: fuchsia;
+    transition: all 0.3s, ease;
+
+}
+button{
+    width: 100px;
+    padding: 10px 15px;
+    margin-top: 5px;
+    background-color: fuchsia;
+    color: rgb(23, 6, 6);
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 15px;
+    outline: none;
+}
